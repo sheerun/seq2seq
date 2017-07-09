@@ -146,8 +146,8 @@ class TrainSampleHook(TrainingHook):
       If set, `every_n_steps` must be None.
     every_n_steps: Sample predictions every N steps.
       If set, `every_n_secs` must be None.
-    sample_dir: Optional, a directory to write samples to.
-    delimiter: Join tokens on this delimiter. Defaults to space.
+    source_delimiter: Join source tokens on this delimiter. Defaults to space.
+    target_delimiter: Join target tokens on this delimiter. Defaults to space.
   """
 
   #pylint: disable=missing-docstring
